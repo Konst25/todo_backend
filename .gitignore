@@ -1,0 +1,66 @@
+# Кэш PHPUnit (тесты)
+/.phpunit.cache 
+# Фронтенд-зависимости (используется Vue)        
+/node_modules  
+# Артефакты Vite/Webpack         
+/public/build           
+/public/hot
+# Симлинк storage             
+/public/storage 
+# Ключи приложения        
+/storage/*.key
+# Логи Pailier          
+/storage/pail          
+# Дополнительные исключения для Laravel
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+!storage/framework/.gitkeep
+!storage/logs/.gitkeep
+# Фронтенд-артефакты (если есть)
+/public/css/
+/public/js/
+# PHP-зависимости
+/vendor  
+# Файлы-конфиги окружения              
+.env                    
+.env.backup             
+.env.production 
+# Настройки IDE и тестов        
+.phpactor.json          
+.phpunit.result.cache 
+# Конфиги Homestead (Vagrant)  
+Homestead.json          
+Homestead.yaml  
+# Логи фронтенда        
+npm-debug.log           
+yarn-error.log  
+# Credentials Composer        
+/auth.json  
+# Настройки IDE            
+/.fleet                 
+/.idea                 
+/.nova                 
+/.vscode                
+/.zed  
+# Системные файлы
+.DS_Store
+*.swp
+*.swo
+# Локальные тестовые данные
+/.phpbench.json
+/.php-cs-fixer.cache
+# Сертификаты для разработки
+/.tinkerwell
+/ssl/   
+
+# Особенности для Laravel 12
+# Новые пути кэша
+/bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+# Дебаг-бар
+/.phpstorm.meta.php
+/_ide_helper.php
+# Для Sail
+/.env.sail
