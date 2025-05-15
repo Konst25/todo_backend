@@ -64,3 +64,4 @@ yarn-error.log
 /_ide_helper.php
 # Для Sail
 /.env.sail
+public_html
